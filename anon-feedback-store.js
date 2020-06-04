@@ -1,5 +1,5 @@
 const fs = require("fs");
-const PATH = `${__dirname}/.data/anon-poll.txt`;
+const PATH = `${__dirname}/.data/anon-feedback.txt`;
 let concerned_users = {};
 
 exports.readAnonPollData = () => {
